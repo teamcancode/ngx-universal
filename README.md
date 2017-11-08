@@ -1,5 +1,4 @@
 # TCC Ng5 Universal
-================
 
 This project is an initiator for fast start new project with Angular 5 Universal.
 
