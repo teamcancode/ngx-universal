@@ -32,7 +32,7 @@ Navigate to `http://localhost:4200/`. The app will automatically reload if you c
     
     
 ### Generating Components, Directives, Pipes and Services:
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli), so you can use all command line of [Angular CLI](https://github.com/angular/angular-cli): 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli), so you can use all command lines of [Angular CLI](https://github.com/angular/angular-cli): 
 ```
 ng generate component my-new-component
 ng generate directive my-new-directive
