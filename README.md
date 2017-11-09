@@ -87,9 +87,9 @@ npm run build
 ```
     
 ### Custom environment.
-In this example is `dev` environment, `tcc-universal` is the name of project, defined in `package.json` file
+In this example is `dev` environment, `ngx-universal` is the name of project, defined in `package.json` file
 ```
-npm run build --tcc-universal:env=dev
+npm run build --ngx-universal:env=dev
 ```
    
 Start server:
