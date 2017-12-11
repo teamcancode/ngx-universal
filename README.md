@@ -63,8 +63,9 @@ And update config in `package.json`
 ```
 
 ### Prefix:
-Update config in `.angular-cli.json`
+Replease all prefixes `tcc` in components, directives, pipes... and some files below with your prefix `your-project-prefix`:
 ```
+//.angular-cli.json
 {
     ...
     "apps": [
@@ -76,6 +77,42 @@ Update config in `.angular-cli.json`
         ...
     ]
     ...
+}
+```
+
+```
+//src/app/app.module.ts
+//...
+@NgModule({
+  //...
+  imports: [
+    BrowserModule.withServerTransition({appId: 'your-project-prefix'}),
+    //...
+  ],
+  //...
+})
+//...
+```
+
+```
+//tslint.json
+//...
+{
+  //...
+  "rules": {
+    //...
+    "directive-selector": [
+      //...
+      "your-project-prefix",
+      //...
+    ],
+    "component-selector": [
+      //...
+      "your-project-prefix",
+      //...
+    ],
+    //...
+  }
 }
 ```
    
