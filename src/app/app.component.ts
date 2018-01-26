@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { environment } from '../environments/environment';
 
 @Component({
   selector: 'tcc-root',
@@ -7,5 +6,5 @@ import { environment } from '../environments/environment';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = environment.title;
+  title = 'tcc';
 }

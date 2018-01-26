@@ -20,6 +20,7 @@ import { FooterComponent } from './components/footer/footer.component';
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'tcc'}),
+    BrowserModule,
     AppRoutingModule
   ],
   providers: [],

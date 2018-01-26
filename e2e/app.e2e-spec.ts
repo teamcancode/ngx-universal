@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('universal App', () => {
+describe('ngx-universal App', () => {
   let page: AppPage;
 
   beforeEach(() => {
